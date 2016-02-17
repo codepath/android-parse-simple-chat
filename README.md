@@ -15,3 +15,7 @@ Parse.initialize(new Parse.Configuration.Builder(this)
              .server("https://myparseapp.herokuapp.com/parse/")
              .clientKey("YOUR_CLIENT_KEY").build());
 ```
+
+## Final Output
+
+![Chat App|250](http://i.imgur.com/3UZ6ZNy.png)
