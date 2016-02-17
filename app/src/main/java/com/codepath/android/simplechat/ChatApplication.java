@@ -18,9 +18,9 @@ public class ChatApplication extends Application {
         // set applicationId and server based on the values in the Heroku settings.
         // any network interceptors must be added with the Configuration Builder given this syntax
         Parse.initialize(new Parse.Configuration.Builder(this)
-                .applicationId("myAppId")
+                .applicationId("YOUR_APPLICATION_ID")
                 .addNetworkInterceptor(new ParseLogInterceptor())
-                .server("https://simplechatclient.herokuapp.com/parse/")
-                .clientKey("a50e1cffb49a4665a78929b7121146c7").build());
+                .server("https://myparseapp.herokuapp.com/parse/")
+                .clientKey("YOUR_CLIENT_KEY").build());
     }
 }
